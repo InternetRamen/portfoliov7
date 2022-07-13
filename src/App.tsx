@@ -8,10 +8,11 @@ function App() {
     const [tool, setTool] = useState(0);
     const group = [
         "web development",
+        "scripting",
         "photography",
         "bots",
         "design",
-        "arylic",
+        "acrylic",
     ];
     const ref = useRef<HTMLSpanElement>(null);
     function delay(delayInms: number) {
